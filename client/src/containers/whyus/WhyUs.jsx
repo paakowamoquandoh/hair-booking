@@ -1,15 +1,16 @@
 import React from 'react';
 import Feature from '../../components/feature/Feature';
 import "./whyus.css";
+import LogoFeature from '../../components/feature/LogoFeature';
 
 const WhyUs = () => {
   return (
     <div className="whyMedia section__margin" id="wgpt3">
     <div className="whyMedia-feature">
-      <Feature title="itmustbeginger" text="We help you reach your audience in the right places at the right frequency at the right price. From Traditional media to digital media or an integrated mix." />
+      <LogoFeature title="itmustbeginger" text="Discover the art of hairstyling with ease! Welcome to our premier hair classes booking service. Elevate your skills, explore new techniques, and unleash your creativity with our expert-led classes." />
     </div>
     <div className="whyMedia-heading">
-      <h1 className="gradient__text">Choose our revolutionary Digital experiences.</h1>
+      <h1 className="gradient__text">Join us today and unlock your potential in the world of hairdressing!</h1>
       <p>-Social Media Icons-</p>
     </div>
     <div className="whyMedia-container">
