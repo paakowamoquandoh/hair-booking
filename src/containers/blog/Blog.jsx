@@ -5,7 +5,6 @@ import vid2 from '../../media/hair/h5.jpg';
 import vid3 from '../../media/hair/h6.jpg';
 import vid4 from '../../media/hair/h7.jpg';
 import vid5 from '../../media/hair/h8.jpg';
-import vid6 from '../../media/hair/h4.jpg';
 import './blog.css';
 
 const Blog = () => (
