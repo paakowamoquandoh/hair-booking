@@ -1,12 +1,13 @@
 import React from 'react';
-import ai from '../../media/icons/media2.webp';
+import ai from '../../media/hair/h14.jpg';
 import './header.css';
+
 
 const Header = () => (
   <div className="mediaHeader section__padding" id="home">
     <div className="mediaHeader-content">
-      <h1 className="gradient__text">Partner with our leading digital marketing agency<i>!</i></h1>
-      <p>Make your Brand recognisable, differentiated and appealing to the target audience with styles to tone your voice.</p>
+      <h1 className="gradient__text">Welcome to <i className='nameStyle'>itmustbeginger!</i></h1>
+      <p>Say goodbye to long waits and last-minute appointments. Explore a range of classes taught by industry experts, from cutting-edge techniques to timeless styles. Join us today and elevate your skills in the art of hairdressing!</p>
 
       <div className="mediaHeader-content__input">
         <input type="email" placeholder="Your Email Address" />

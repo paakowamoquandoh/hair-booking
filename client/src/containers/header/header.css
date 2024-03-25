@@ -21,6 +21,10 @@
     letter-spacing: -0.04em;
 }
 
+.nameStyle{
+    font-family: "Poppins", sans-serif;
+}
+
 .mediaHeader-content p {
     font-family: var(--font-family);
     font-weight: 400;

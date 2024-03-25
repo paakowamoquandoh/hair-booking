@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 2rem 6rem;
+    border-bottom: 0.5px grey solid;
+    padding: 1.2rem 6rem;
 }
 
 .mediaNavbar-links {
@@ -15,10 +15,20 @@
 
 .mediaNavbarLogo {
     margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.mediaNavbarLogo img{
+    width: 100%;
+    height: 2rem;
 }
 
 .goldText{
-    color: goldenrod;
+    color: lightcoral;
 }
 
 .mediaNavbarLogo h1{
@@ -126,6 +136,19 @@
 @media screen and (max-width: 550px) {
     .mediaNavbar {
         padding: 2rem;
+    }
+
+    .mediaNavbarLogo {
+        margin-right: 0.1rem;
+        gap: 0.2rem;
+    }
+
+    .mediaNavbarLogo h1{
+        font-size: 1.6rem;
+    }
+
+    .mediaNavbarLogo img {
+        height: 1.6rem;
     }
 
     .mediaNavbar-sign {

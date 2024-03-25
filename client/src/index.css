@@ -4,14 +4,18 @@
 :root {
   --font-family: 'Manrope', sans-serif;
 
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --gradient-text: linear-gradient(89.97deg, lightcoral 1.84%, rgb(106, 6, 6) 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, lightcoral -13.86%, rgb(106, 6, 6) 99.55%);
   
-  --color-bg: #1a0035d7 ;
+  --color-bg: #070606 ;
   --mainRed: rgb(174,49,35);
   --color-footer : #031B34;
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
   --colorWhite: #fff;
+  --light-color: lightcoral;
+  --light-color-alt: #fdfdfd;
+  --primary-background-color: #070606;
+  --secondary-background-color: #17191d;
 }
