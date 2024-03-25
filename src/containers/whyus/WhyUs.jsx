@@ -16,7 +16,7 @@ const WhyUs = () => {
       <p>-Social Media Icons-</p>
     </div>
     <div className="whyMedia-container">
-      <Feature title="Brand Identity" text="Build yourself and reflect your values to attract the right responses from your audience." />
+      <Feature title="Bridal services" text="Build yourself and reflect your values to attract the right responses from your audience." />
       <Feature title="Media Buy" text="Providing Custom digital experiences." />
       <Feature title="Digital Marketing" text="Optimise your online using all types of digital media not limited to websites, banners and search engine." />
     </div>
