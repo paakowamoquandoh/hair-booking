@@ -6,7 +6,7 @@ const WhyUs = () => {
   return (
     <div className="whyMedia section__margin" id="wgpt3">
     <div className="whyMedia-feature">
-      <Feature title="MediaRebrand" text="We help you reach your audience in the right places at the right frequency at the right price. From Traditional media to digital media or an integrated mix." />
+      <Feature title="itmustbeginger" text="We help you reach your audience in the right places at the right frequency at the right price. From Traditional media to digital media or an integrated mix." />
     </div>
     <div className="whyMedia-heading">
       <h1 className="gradient__text">Choose our revolutionary Digital experiences.</h1>
