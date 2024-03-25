@@ -1,27 +1,20 @@
 import React from 'react';
-import { google, slack, atlassian, dropbox, shopify } from './images';
 import './brand.css';
 
 const Brand = () => (
   <div>
-    <div>
-      <h1>Our features</h1>
-    </div>
     <div className="mediaBrand section__padding">
     <div>
-      <img alt='brand1' src={google} />
+      <h2>24/7 access</h2>
+      <p>to a growing classes library</p>
     </div>
     <div>
-      <img alt='brand2' src={slack} />
+    <h2>Over 50 classes</h2>
+      <p>well organised for you</p>
     </div>
     <div>
-      <img alt='brand3' src={atlassian} />
-    </div>
-    <div>
-      <img alt='brand4' src={dropbox} />
-    </div>
-    <div>
-      <img alt='brand5' src={shopify} />
+    <h2>Experienced</h2>
+      <p>Stylists/Instructors</p>
     </div>
   </div>
   </div>
