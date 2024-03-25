@@ -4,7 +4,7 @@ import './footer.css';
 const Footer = () => (
   <div className="gpt3__footer section__padding">
     <div className="gpt3__footer-heading">
-      <h1 className="gradient__text">Do you want to step in to the future before others</h1>
+      <h1 className="gradient__text">With hassle-free booking, Join us today to embark on your journey to excellence!</h1>
     </div>
 
     <div className="gpt3__footer-btn">
@@ -14,7 +14,7 @@ const Footer = () => (
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
         {/* <img src={gpt3Logo} alt="gpt3_logo" /> */}
-        <p>PH Projects Accra, Ghana <br /> All Rights Reserved</p>
+        <p><i>itmustbeginger</i> Accra, Ghana <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
@@ -31,14 +31,14 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>PH Projects Accra,Ghana</p>
-        <p>085-132567</p>
-        <p>peni@mediarebrand.com</p>
+        <p><i>itmustbeginger</i> Accra,Ghana</p>
+        <p>0209077790</p>
+        <p>itmustbeginger.com</p>
       </div>
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2023 MediaRebrand. All rights reserved.</p>
+      <p>@2024 <i>itmustbeginger</i>. All rights reserved.</p>
     </div>
   </div>
 );
