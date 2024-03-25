@@ -1,5 +1,5 @@
 import React from 'react';
-import possibilityImage from '../../media/icons/media1.webp';
+import possibilityImage from '../../media/hair/h13.jpg';
 import "./prospects.css";
 
 const Prospects = () => {

@@ -1,22 +1,27 @@
 import React from 'react';
 import Article from '../../components/article/Article';
-import { blog01, blog02, blog03, blog04, blog05 } from './images';
+import vid1 from '../../media/hair/h17.jpg';
+import vid2 from '../../media/hair/h5.jpg';
+import vid3 from '../../media/hair/h6.jpg';
+import vid4 from '../../media/hair/h7.jpg';
+import vid5 from '../../media/hair/h8.jpg';
+import vid6 from '../../media/hair/h4.jpg';
 import './blog.css';
 
 const Blog = () => (
   <div className="gpt3__blog section__padding" id="blog">
     <div className="gpt3__blog-heading">
-      <h1 className="gradient__text">A lot is happening, <br /> We are blogging about it.</h1>
+      <h1 className="gradient__text">Get full online access <br /> To the Academy.</h1>
     </div>
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupA">
-        <Article imgUrl={blog01} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+        <Article imgUrl={vid1} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
       </div>
       <div className="gpt3__blog-container_groupB">
-        <Article imgUrl={blog02} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-        <Article imgUrl={blog03} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-        <Article imgUrl={blog04} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-        <Article imgUrl={blog05} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+        <Article imgUrl={vid2} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+        <Article imgUrl={vid3} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+        <Article imgUrl={vid4} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+        <Article imgUrl={vid5} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
       </div>
     </div>
   </div>
