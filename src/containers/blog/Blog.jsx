@@ -14,12 +14,12 @@ const Blog = () => (
     </div>
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupA">
-        <Article imgUrl={vid1} date="Layering & colouring" text="Discover the art of layering and coloring with our specialized classes" />
+        <Article imgUrl={vid1} date="Layering & colouring" text="Master the interplay of layers and colors" />
       </div>
       <div className="gpt3__blog-container_groupB">
-        <Article imgUrl={vid2} date="Layering & colouring" text="Discover the art of layering and coloring with our specialized classes?" />
-        <Article imgUrl={vid3} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-        <Article imgUrl={vid4} date="Single and Double ponytail" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+        <Article imgUrl={vid2} date="Single/double frontal updo’s" text="Discover the art of updo's with our specialized classes" />
+        <Article imgUrl={vid3} date="Traditional ponytail " text="From foundational techniques to advanced methods" />
+        <Article imgUrl={vid4} date="Single and Double ponytail" text="Dive into techniques." />
         <Article imgUrl={vid5} date="Frontal installation" text="Embark on your journey to master the art of frontal installation with our comprehensive e-learning course" />
       </div>
     </div>

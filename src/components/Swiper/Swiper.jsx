@@ -47,8 +47,10 @@ export default function SwiperMain() {
             backgroundImage: `url(${require("../../media/hair/h5.jpg")})`,
           }}
         >
-          <h1>lorem lorem</h1><br/>
-          <p>lorem ipsum dolor calc lorem lorem lorem lorem ipsum</p>
+          <h1>Welcome Back!</h1><br/>
+          <p style={{
+            color: "white",
+            }}>Check out our latest classes where you will learn some of the most sought after hairstyles worldwide.</p>
         </SwiperSlide>
         <SwiperSlide
         className="swiperSlide"
@@ -61,12 +63,18 @@ export default function SwiperMain() {
             backgroundImage: `url(${require("../../media/hair/h4.jpg")})`,
           }}
         >
-          <h1>lorem lorem</h1><br/>
-          <p>lorem ipsum dolor calc lorem lorem lorem lorem ipsum</p>
+          <h1>WIG COLLECTION & PRODUCTS</h1><br/>
+          <p>
+            <ul>
+              <li>Units</li>
+              <li>Pre-styled wigs</li>
+            </ul>
+          </p>
         </SwiperSlide>
         <SwiperSlide
         className="swiperSlide"
           style={{
+            color: "teal",
             width: "100%",
             height: "100%",
             WebkitBackgroundSize: "cover",
@@ -75,8 +83,10 @@ export default function SwiperMain() {
             backgroundImage: `url(${require("../../media/hair/h6.jpg")})`,
           }}
         >
-          <h1>lorem lorem</h1><br/>
-          <p>lorem ipsum dolor calc lorem lorem lorem lorem ipsum</p>
+          <h1>E learning WIGMAKING</h1><br/>
+          <p style={{
+            color: "white",
+            }}>In person & online classes.</p>
         </SwiperSlide>
         <SwiperSlide
         className="swiperSlide"

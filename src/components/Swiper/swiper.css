@@ -73,6 +73,10 @@
     transform: rotate(-90deg);
   }
 
+  .swiperSlide ul{
+    list-style: none;
+  }
+
   @media screen and (max-width: 1250px) {
     .mySwiper{
         height: 18rem;
