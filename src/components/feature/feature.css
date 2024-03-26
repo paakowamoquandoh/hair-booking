@@ -4,8 +4,13 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
-
     margin: 1rem;
+}
+
+.gpt3__features-container__feature img{
+    height: 5rem;
+    width: 28%;
+    object-fit: cover;
 }
 
 .gpt3__features-container__feature-title {
@@ -43,6 +48,7 @@
     font-size: 14px;
     line-height: 24px;
     color: var(--color-text);
+    text-wrap: wrap;
 }
 
 @media screen and (max-width: 550px) {
