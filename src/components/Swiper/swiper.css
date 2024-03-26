@@ -40,7 +40,7 @@
     align-items: center;
     flex-direction: column;
     color: rgb(252, 6, 6);
-    font-family: ;
+    font-family: "Poppins", sans-serif;
   }
   
   .autoplay-progress {
@@ -71,5 +71,11 @@
     stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
+  }
+
+  @media screen and (max-width: 1250px) {
+    .mySwiper{
+        height: 18rem;
+    }
   }
   
