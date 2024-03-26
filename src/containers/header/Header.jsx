@@ -1,24 +1,69 @@
-import React from 'react';
-import ai from '../../media/hair/h14.jpg';
+import React, { useState } from 'react';
+// import ai from '../../media/hair/h14.jpg';
+import emailjs from '@emailjs/browser';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import './header.css';
 
 
-const Header = () => (
+const Header = () => {
+  const [email, setEmail] = useState('')
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const serviceId = 'service_dt68oml';
+    const templateId = 'template_l8j7skn';
+    const publicKey = 'D356S8wqipj-FwqK5';
+
+    const templateParams = {
+      from_email : email,
+      to_name : 'itmustbeginger'
+    }
+
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+    .then((response) => {
+      alert('Request sent successfully!', response);
+      setEmail('');
+    })
+    .catch((error) => {
+      alert('Error sending request, please try again!', error)
+    })
+  }
+  return (    
   <div className="mediaHeader section__padding" id="home">
-    <div className="mediaHeader-content">
-      <h1 className="gradient__text">Welcome to <i className='nameStyle'>itmustbeginger!</i></h1>
-      <p>Say goodbye to long waits and last-minute appointments. Explore a range of classes taught by industry experts, from cutting-edge techniques to timeless styles. Join us today and elevate your skills in the art of hairdressing!</p>
+  <div className="mediaHeader-content">
+    <h1 className="gradient__text">Welcome to <i className='nameStyle'>itmustbeginger!</i></h1>
+    <p>Say goodbye to long waits and last-minute appointments. Explore a range of classes taught by industry experts, from cutting-edge techniques to timeless styles. Join us today and elevate your skills in the art of hairdressing!</p>
 
-      <div className="mediaHeader-content__input">
-        <input type="email" placeholder="Your Email Address" />
-        <button type="button">Get Started</button>
-      </div>
-    </div>
-
-    <div className="mediaHeader-image">
-      <img alt='ai' src={ai} />
-    </div>
+    <form onSubmit={handleSubmit} className="mediaHeader-content__input">
+      <input type="email" placeholder="Your Email Address" value={email} onChange={(e) => setEmail(e.target.value)}/>
+      <button type="submit">Get Started</button>
+    </form>
   </div>
-);
+
+  <div className="mediaHeader-image">
+  <Swiper
+      // install Swiper modules
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={50}
+      slidesPerView={3}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
+      <SwiperSlide>Slide 1</SwiperSlide>
+      <SwiperSlide>Slide 2</SwiperSlide>
+      <SwiperSlide>Slide 3</SwiperSlide>
+      <SwiperSlide>Slide 4</SwiperSlide>
+    </Swiper>
+  </div>
+</div>
+  )
+  };
 
 export default Header;
