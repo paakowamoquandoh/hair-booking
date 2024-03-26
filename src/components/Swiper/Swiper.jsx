@@ -75,6 +75,7 @@ export default function SwiperMain() {
         <SwiperSlide
         className="swiperSlide"
           style={{
+            color: "grey",
             width: "100%",
             height: "100%",
             WebkitBackgroundSize: "cover",
@@ -91,6 +92,7 @@ export default function SwiperMain() {
         <SwiperSlide
         className="swiperSlide"
           style={{
+            color: "goldenrod",
             width: "100%",
             height: "100%",
             WebkitBackgroundSize: "cover",
@@ -99,12 +101,19 @@ export default function SwiperMain() {
             backgroundImage: `url(${require("../../media/hair/h7.jpg")})`,
           }}
         >
-          <h1>lorem lorem</h1><br/>
-          <p>lorem ipsum dolor calc lorem lorem lorem lorem ipsum</p>
+          <h1>EDUCATION &<br/>ACADEMY</h1><br/>
+          <p> 
+            <ul className="list">
+              <li>Physical classes</li>
+              <li>Online classes</li>
+              <li>Short courses</li>
+            </ul>
+            </p>
         </SwiperSlide>
         <SwiperSlide
           className="swiperSlide"
           style={{
+            color: "cyan",
             width: "100%",
             height: "100%",
             WebkitBackgroundSize: "cover",
@@ -113,8 +122,11 @@ export default function SwiperMain() {
             backgroundImage: `url(${require("../../media/hair/h8.jpg")})`,
           }}
         >
-          <h1>lorem lorem</h1><br/>
-          <p>lorem ipsum dolor calc lorem lorem lorem lorem ipsum</p>
+          <h1>BOOKINGS!</h1><br/>
+          <p style={{
+            color: "cyan",
+            fontWeight: "bold",
+            }}>Salon service and Home Service appointment.</p>
         </SwiperSlide>
         <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>

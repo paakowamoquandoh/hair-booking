@@ -77,6 +77,11 @@
     list-style: none;
   }
 
+  .list li{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
   @media screen and (max-width: 1250px) {
     .mySwiper{
         height: 18rem;
