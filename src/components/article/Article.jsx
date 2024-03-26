@@ -11,7 +11,9 @@ const Article = ({ imgUrl, date, text }) => (
         <p>{date}</p>
         <h3>{text}</h3>
       </div>
-      <p>Watch Now!</p>
+      <p style={{    
+    color: 'crimson',
+  }}>Watch Now!</p>
     </div>
   </div>
 );
