@@ -2,7 +2,10 @@ import React from 'react';
 import Feature from '../../components/feature/Feature';
 import "./whyus.css";
 import LogoFeature from '../../components/feature/LogoFeature';
-import advertImg from '../../media/hair/h16.jpg'
+import advertImg from '../../media/hair/h16.jpg';
+import advertImg1 from '../../media/hair/h3.jpg'
+import advertImg2 from '../../media/hair/paul-siewert-dnpa8k6TGRE-unsplash.jpg'
+import advertImg3 from '../../media/hair/h15.jpg'
 
 const WhyUs = () => {
   return (
@@ -16,9 +19,9 @@ const WhyUs = () => {
       <p>-Social Media Icons-</p>
     </div>
     <div className="whyMedia-container">
-      <Feature img={advertImg} title="Bridal services" text="Build yourself and reflect your values to attract the right responses from your audience." />
-      <Feature title="Wig services" text="Providing Custom digital experiences." />
-      <Feature title="General salon services" text="Optimise your online using all types of digital media not limited to websites, banners and search engine." />
+      <Feature img={advertImg1} title="Bridal services" text="Build yourself and reflect your values to attract the right responses from your audience." />
+      <Feature img={advertImg2} title="Wig services" text="Providing Custom digital experiences." />
+      <Feature img={advertImg3} title="General salon services" text="Optimise your online using all types of digital media not limited to websites, banners and search engine." />
     </div>
   </div>
   )
