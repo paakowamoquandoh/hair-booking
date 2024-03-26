@@ -39,6 +39,7 @@ export default function SwiperMain() {
         <SwiperSlide
         className="swiperSlide"
           style={{
+            color: "teal",
             width: "100%",
             height: "100%",
             WebkitBackgroundSize: "cover",
@@ -74,7 +75,6 @@ export default function SwiperMain() {
         <SwiperSlide
         className="swiperSlide"
           style={{
-            color: "teal",
             width: "100%",
             height: "100%",
             WebkitBackgroundSize: "cover",
