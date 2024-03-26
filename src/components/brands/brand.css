@@ -28,6 +28,13 @@
     -o-border-radius: 8px;
 }
 
+@media screen and (max-width: 1250px) {
+    .mediaBrand div {
+       font-size: small;
+       text-align: center;
+    }
+}
+
 
 @media screen and (max-width: 550px) {
     .mediaBrand {

@@ -93,7 +93,26 @@
     margin-top: 0.5rem;
 }
 
+.icons{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1250px) {
+   .whyMedia-feature{
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+   }
+}
+
 @media screen and (max-width: 850px) {
+
     .whyMedia-heading {
         flex-direction: column;
         align-items: flex-start;
