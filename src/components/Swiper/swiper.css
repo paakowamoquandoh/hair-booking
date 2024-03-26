@@ -77,5 +77,18 @@
     .mySwiper{
         height: 18rem;
     }
+
+    .swiperSlide h1{
+      font-size: 2rem;
+    }
+
+    .swiperSlide p{
+        font-size: 1rem;
+        margin: 0 0.5rem;
+      }
+
+      .swiper-button-prev, .swiper-button-next{
+        display: none;
+      }
   }
   
