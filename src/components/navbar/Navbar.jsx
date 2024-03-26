@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
-import ginger from '../../media/icons/ginger.jpg'
+import ginger from '../../media/icons/ginger.jpeg'
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);

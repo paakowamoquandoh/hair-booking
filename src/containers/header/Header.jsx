@@ -9,9 +9,9 @@ const Header = () => {
   const [email, setEmail] = useState('')
   const handleSubmit = (e) => {
     e.preventDefault();
-    const serviceId = 'service_dt68oml';
-    const templateId = 'template_l8j7skn';
-    const publicKey = 'D356S8wqipj-FwqK5';
+    const serviceId = 'service_5ev9f0z';
+    const templateId = 'template_7ep6any';
+    const publicKey = 'UvMkb3OmZ1HVfa3oK';
 
     const templateParams = {
       from_email : email,
