@@ -34,9 +34,10 @@
     grid-gap: 2rem;
 }
 
-.gpt3__blog-container_groupB img {
-    display: none;
-}
+/* .gpt3__blog-container_groupB img {
+    height: 40%;
+    width: 100%;
+} */
 
 @media screen and (max-width: 990px) {
     .gpt3__blog-container {
