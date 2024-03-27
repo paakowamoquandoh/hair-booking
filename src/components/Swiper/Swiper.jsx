@@ -45,7 +45,7 @@ export default function SwiperMain() {
             WebkitBackgroundSize: "cover",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundImage: `url(${require("../../media/hair/h5.jpg")})`,
+            backgroundImage: `url(${require("../../media/ginger/car3.jpg")})`,
           }}
         >
           <h1>Welcome Back!</h1><br/>
@@ -61,7 +61,7 @@ export default function SwiperMain() {
             WebkitBackgroundSize: "cover",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundImage: `url(${require("../../media/hair/h4.jpg")})`,
+            backgroundImage: `url(${require("../../media/ginger/cars.JPG")})`,
           }}
         >
           <h1>WIG COLLECTION & PRODUCTS</h1><br/>
@@ -81,7 +81,7 @@ export default function SwiperMain() {
             WebkitBackgroundSize: "cover",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundImage: `url(${require("../../media/hair/h6.jpg")})`,
+            backgroundImage: `url(${require("../../media/ginger/cars1.JPG")})`,
           }}
         >
           <h1>E learning WIGMAKING</h1><br/>
@@ -113,18 +113,16 @@ export default function SwiperMain() {
         <SwiperSlide
           className="swiperSlide"
           style={{
-            color: "cyan",
             width: "100%",
             height: "100%",
             WebkitBackgroundSize: "cover",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundImage: `url(${require("../../media/hair/h8.jpg")})`,
+            backgroundImage: `url(${require("../../media/ginger/car5.jpg")})`,
           }}
         >
           <h1>BOOKINGS!</h1><br/>
           <p style={{
-            color: "cyan",
             fontWeight: "bold",
             }}>Salon service and Home Service appointment.</p>
         </SwiperSlide>
