@@ -1,10 +1,10 @@
 import React from 'react';
 import Article from '../../components/article/Article';
-import vid1 from '../../media/hair/h17.jpg';
-import vid2 from '../../media/hair/h5.jpg';
-import vid3 from '../../media/hair/h6.jpg';
-import vid4 from '../../media/hair/h7.jpg';
-import vid5 from '../../media/hair/h8.jpg';
+import vid1 from '../../media/ginger/port2.JPG';
+import vid2 from '../../media/ginger/edu1.JPG';
+import vid3 from '../../media/ginger/cars4.JPG';
+import vid4 from '../../media/ginger/car3.jpg';
+import vid5 from '../../media/ginger/port.JPG';
 import './blog.css';
 
 const Blog = () => (

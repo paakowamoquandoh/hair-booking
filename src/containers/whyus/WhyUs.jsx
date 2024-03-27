@@ -3,8 +3,8 @@ import Feature from '../../components/feature/Feature';
 import "./whyus.css";
 import LogoFeature from '../../components/feature/LogoFeature';
 import advertImg from '../../media/ginger/car5.jpg';
-import advertImg1 from '../../media/ginger/g3.JPG'
-import advertImg2 from '../../media/ginger/car6.jpg'
+import advertImg1 from '../../media/ginger/port3.JPG'
+import advertImg2 from '../../media/ginger/port1.JPG'
 import advertImg3 from '../../media/ginger/h9.JPG';
 import { RiFacebookFill, RiInstagramFill, RiTwitterFill, RiWhatsappFill, RiYoutubeFill } from 'react-icons/ri';
 
@@ -22,13 +22,13 @@ const WhyUs = () => {
           <a target="_blank" rel="noopener noreferrer" href="https://web.facebook.com/ItmustbeGinger">
             <RiFacebookFill size={30}/>
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/it_must_be_ginger">
             <RiInstagramFill size={30}/>
           </a>
           <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@WendySomuah">
             <RiYoutubeFill size={30}/>
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="/">
+          <a target="_blank" rel="noopener noreferrer" href="https://wa.me/message/ATQTGUSUE3QXG1">
             <RiWhatsappFill size={30}/>
           </a>
           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ginger_makeupGH">
