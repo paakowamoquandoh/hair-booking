@@ -2,17 +2,17 @@ import React from 'react';
 import Feature from '../../components/feature/Feature';
 import "./whyus.css";
 import LogoFeature from '../../components/feature/LogoFeature';
-import advertImg from '../../media/hair/h16.jpg';
-import advertImg1 from '../../media/hair/h3.jpg'
-import advertImg2 from '../../media/hair/paul-siewert-dnpa8k6TGRE-unsplash.jpg'
-import advertImg3 from '../../media/hair/h15.jpg';
+import advertImg from '../../media/ginger/car5.jpg';
+import advertImg1 from '../../media/ginger/g3.JPG'
+import advertImg2 from '../../media/ginger/car6.jpg'
+import advertImg3 from '../../media/ginger/h9.JPG';
 import { RiFacebookFill, RiInstagramFill, RiTwitterFill, RiWhatsappFill, RiYoutubeFill } from 'react-icons/ri';
 
 const WhyUs = () => {
   return (
     <div className="whyMedia section__margin" id="wgpt3">
     <div className="whyMedia-feature">
-      <LogoFeature title="itmustbeginger" text="Discover the art of hairstyling with ease! Welcome to our premier hair classes booking service. Elevate your skills, explore new techniques, and unleash your creativity with our expert-led classes." />
+      <LogoFeature title="itmustbeginger" text="Discover the art of hairstyling with ease! Welcome to our premier hair booking service. Elevate your skills, explore new techniques, and unleash your creativity with our expert-led classes." />
       <img src={advertImg} alt=''/>
     </div>
     <div className="whyMedia-heading">

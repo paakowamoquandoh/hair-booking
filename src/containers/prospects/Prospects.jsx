@@ -1,5 +1,5 @@
 import React from 'react';
-import possibilityImage from '../../media/hair/h13.jpg';
+import possibilityImage from '../../media/ginger/g2.JPG';
 import "./prospects.css";
 
 const Prospects = () => {

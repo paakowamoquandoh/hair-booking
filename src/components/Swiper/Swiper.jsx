@@ -98,7 +98,7 @@ export default function SwiperMain() {
             WebkitBackgroundSize: "cover",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundImage: `url(${require("../../media/hair/h7.jpg")})`,
+            backgroundImage: `url(${require("../../media/ginger/h7.JPG")})`,
           }}
         >
           <h1>EDUCATION &<br/>ACADEMY</h1><br/>
@@ -118,7 +118,7 @@ export default function SwiperMain() {
             WebkitBackgroundSize: "cover",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundImage: `url(${require("../../media/ginger/car5.jpg")})`,
+            backgroundImage: `url(${require("../../media/ginger/g1.JPG")})`,
           }}
         >
           <h1>BOOKINGS!</h1><br/>
