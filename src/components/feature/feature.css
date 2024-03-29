@@ -53,11 +53,13 @@
 
 .article {
     position: relative;
+    
   }
   
   .article video {
+    
     width: 100%;
-    height: 50%;
+    height: 100%;
     object-fit: cover;
     transition: transform 0.25s;
   }

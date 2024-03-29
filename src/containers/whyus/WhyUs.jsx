@@ -3,9 +3,9 @@ import Feature from '../../components/feature/Feature';
 import "./whyus.css";
 import LogoFeature from '../../components/feature/LogoFeature';
 import advertImg from '../../media/ginger/car5.jpg';
-import advertImg1 from '../../media/ginger/port3.JPG'
-import advertImg2 from '../../media/ginger/port1.JPG'
-import advertImg3 from '../../media/ginger/h9.JPG';
+import advertImg1 from '../../media/ginger/classVid2.MOV'
+import advertImg2 from '../../media/ginger/classVid1.MOV'
+import advertImg3 from '../../media/ginger/classVid.MOV';
 import { RiFacebookFill, RiInstagramFill, RiTwitterFill, RiWhatsappFill, RiYoutubeFill } from 'react-icons/ri';
 
 const WhyUs = () => {
@@ -38,9 +38,9 @@ const WhyUs = () => {
       
     </div>
     <div className="whyMedia-container">
-      <Feature img={advertImg1} title="Bridal services" text="Build yourself and reflect your values to attract the right responses from your audience." />
-      <Feature img={advertImg2} title="Wig services" text="Providing Custom digital experiences." />
-      <Feature img={advertImg3} title="General salon services" text="Optimise your online using all types of digital media not limited to websites, banners and search engine." />
+      <Feature vid={advertImg1} title="Bridal services" text="Build yourself and reflect your values to attract the right responses from your audience." />
+      <Feature vid={advertImg2} title="Wig services" text="Providing Custom digital experiences." />
+      <Feature vid={advertImg3} title="General salon services" text="Optimise your online using all types of digital media not limited to websites, banners and search engine." />
     </div>
   </div>
   )
