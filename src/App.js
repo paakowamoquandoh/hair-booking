@@ -9,6 +9,7 @@ import Home from "./pages/home/Home";
 import AllClasses from "./pages/allClasses/AllClasses";
 import ContactUs from "./pages/contactUs/ContactUs";
 import Services from "./pages/services/Services";
+import Booking from "./pages/booking/Booking";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/allclasses" element={<AllClasses/>}/>
         <Route path="/services" element={<Services/>}/>
         <Route path="/contactus" element={<ContactUs/>}/>
+        <Route path="/booking" element={<Booking/>}/>
       </Routes>
     </BrowserRouter>
   );
