@@ -4,7 +4,7 @@ import "./feature.css";
 const Feature = ({ title, text, vid }) => (
   <div className="gpt3__features-container__feature">
     <div>
-      <a href="/services" className="article">
+      <span className="article">
         <video
           src={vid}
           autoPlay
@@ -12,7 +12,7 @@ const Feature = ({ title, text, vid }) => (
           muted
           controls
         ></video>
-      </a>
+      </span>
     </div>
     <div>
       <div className="gpt3__features-container__feature-title">
