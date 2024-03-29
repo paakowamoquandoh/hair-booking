@@ -1,6 +1,6 @@
 import "./services.css";
 import { Navbar } from "../../components";
-import Footer from "../../containers";
+import Footer from "../../containers/footer/Footer";
 
 const Services = () => {
   return (

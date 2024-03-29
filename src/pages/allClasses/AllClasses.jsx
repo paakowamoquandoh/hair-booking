@@ -1,6 +1,6 @@
 import "./allclasses.css";
 import { Navbar } from "../../components";
-import Footer from "../../containers";
+import Footer from "../../containers/footer/Footer";
 
 const AllClasses = () => {
   return (

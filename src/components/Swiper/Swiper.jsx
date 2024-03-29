@@ -49,9 +49,7 @@ export default function SwiperMain() {
           }}
         >
           <h1>Welcome Back!</h1><br/>
-          <p style={{
-            color: "white",
-            }}>Check out our latest classes where you will learn some of the most sought after hairstyles worldwide.</p>
+          <p>Check out our latest classes where you will learn some of the most sought after hairstyles worldwide.</p>
         </SwiperSlide>
         <SwiperSlide
         className="swiperSlide"
@@ -75,7 +73,6 @@ export default function SwiperMain() {
         <SwiperSlide
         className="swiperSlide"
           style={{
-            color: "grey",
             width: "100%",
             height: "100%",
             WebkitBackgroundSize: "cover",
@@ -85,14 +82,10 @@ export default function SwiperMain() {
           }}
         >
           <h1>E learning WIGMAKING</h1><br/>
-          <p style={{
-            color: "white",
-            }}>In person & online classes.</p>
         </SwiperSlide>
         <SwiperSlide
         className="swiperSlide"
           style={{
-            color: "goldenrod",
             width: "100%",
             height: "100%",
             WebkitBackgroundSize: "cover",

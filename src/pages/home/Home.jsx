@@ -1,13 +1,13 @@
 import "./home.css";
 import { Navbar } from "../../components";
 import { Header } from "../../containers";
-import Brand from "../../components";
-import WhyUs from "../../containers";
-import Features from "../../containers";
-import Prospects from "../../containers";
-import CTA from "../../components";
-import Blog from "../../containers";
-import Footer from "../../containers";
+import Brand from "../../components/brands/Brand";
+import WhyUs from "../../containers/whyus/WhyUs";
+import Features from "../../containers/features/Features";
+import Prospects from "../../containers/prospects/Prospects";
+import CTA from "../../components/cta/CTA";
+import Blog from "../../containers/blog/Blog";
+import Footer from "../../containers/footer/Footer";
 
 const Home = () => {
   return (
