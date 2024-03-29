@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ArticleVideo = ({ videoUrl, date, text }) => (
   <div className="gpt3__blog-container_article">
     <div className="gpt3__blog-container_article-video">
-      <video autoPlay muted loop>
+      <video autoplay loop playsinline muted>
         <source src={videoUrl} type="video/mp4" />
         Your browser does not support the video tag.
       </video>

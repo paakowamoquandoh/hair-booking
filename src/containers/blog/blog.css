@@ -40,6 +40,9 @@
 } */
 
 @media screen and (max-width: 990px) {
+    .gpt3__blog-container_groupA img{
+        object-fit: cover;
+    }
     .gpt3__blog-container {
         flex-direction: column-reverse;
     }
