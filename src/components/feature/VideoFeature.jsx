@@ -10,7 +10,6 @@ const VideoFeature = ({ title, text, vid }) => (
           autoPlay
           loop
           muted
-          controls
         ></video>
       </a>
     </div>
