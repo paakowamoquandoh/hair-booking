@@ -3,6 +3,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import './App.css';
 import Allclasses from "./pages/allclasses/Allclasses";
 import Hotel from "./pages/hotel/Hotel";
 import List from "./pages/list/List";
