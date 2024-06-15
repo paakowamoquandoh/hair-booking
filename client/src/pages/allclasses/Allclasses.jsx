@@ -5,9 +5,9 @@ import Header from "../../components/header/Header";
 import MailList from "../../components/mailList/MailList";
 import Navbar from "../../components/navbar/Navbar";
 import PropertyList from "../../components/propertyList/PropertyList";
-import "./home.css";
+import "./allclasses.css";
 
-const Home = () => {
+const Allclasses = () => {
   return (
     <div>
       <Navbar />
@@ -25,4 +25,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Allclasses;
