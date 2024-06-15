@@ -31,10 +31,14 @@ const Nav = () => {
         <button type="button">Sign up</button> */}
         {user ? user.username : (
           <div className="navItems">
-            <p className="">Register</p>
-            <button className="navButton">Login</button>
+            <Link to="/register">
+              <p className="">Register</p>
+            </Link>
+            <Link to="/login">
+              <button className="navButton">Login</button>
+            </Link>
           </div>
-            )}
+        )}
       </div>
       <div className="mediaNavbar-menu">
         {toggleMenu
@@ -51,12 +55,16 @@ const Nav = () => {
           <div className="mediaNavbar-menu_container-links-sign">
             {/* <p>Sign in</p>
             <button type="button">Sign up</button> */}
-            {user ? user.username : (
+           {user ? user.username : (
           <div className="navItems">
-            <button className="navButton">Register</button>
-            <button className="navButton">Login</button>
+            <Link to="/register">
+              <p className="">Register</p>
+            </Link>
+            <Link to="/login">
+              <button className="navButton">Login</button>
+            </Link>
           </div>
-            )}
+        )}
           </div>
         </div>
         )}
