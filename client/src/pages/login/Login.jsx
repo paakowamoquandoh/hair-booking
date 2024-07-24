@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import axios from "axios";
 import "./login.css"
 import { AuthContext } from "../../context/AuthContext";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const Login = () => {
     const [credentials, setCredentials] = useState({
@@ -23,7 +23,7 @@ const Login = () => {
         dispatch({ type: "LOGIN_START" });
         try {
           const res = await axios.post("http://localhost:8800/api/auth/login", credentials);
-          dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
+          dispatch({ type: "LOGIN_SUCCESS", payload: res.data.details });
           navigate("/")
         } catch (err) {
           dispatch({ type: "LOGIN_FAILURE", payload: err.response.data });
@@ -50,6 +50,9 @@ const Login = () => {
         <button disabled={loading} onClick={handleClick} className="lButton">
           Login
         </button>
+        <Link to="/register" style={{ color: "blue", textDecoration: "none" }}>
+          <span>Already have an account? Login</span>
+        </Link>
         {error && <span>{error.message}</span>}
       </div>
     </div>
