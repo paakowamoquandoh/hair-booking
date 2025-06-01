@@ -42,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/paakowamoquandoh/hair-booking.git",
+  "author": "felix amoquandoh <55555068+paakowamoquandoh@users.noreply.github.com>",
+  "license": "MIT"
 }
