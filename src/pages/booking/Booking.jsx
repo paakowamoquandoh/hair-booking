@@ -8,6 +8,9 @@ const Booking = () => {
     <div className="gradientBg">
       <Navbar/>
     </div>
+    <div className="mainSection">
+      <h1>This is the booking section</h1>
+    </div>
     <Footer/>
   </div>
   );

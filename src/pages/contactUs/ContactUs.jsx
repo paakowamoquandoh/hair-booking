@@ -8,6 +8,9 @@ const ContactUs = () => {
     <div className="gradientBg">
       <Navbar/>
     </div>
+    <div className="mainSection">
+      <h1>Email and Phone contact forms</h1>
+    </div>
     <Footer/>
   </div>
   );

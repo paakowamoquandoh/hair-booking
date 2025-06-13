@@ -8,6 +8,9 @@ const Services = () => {
     <div className="gradientBg">
       <Navbar/>
     </div>
+    <div className="mainSection">
+      <h1>This is where the shop goes</h1>
+    </div>
     <Footer/>
   </div>
   );

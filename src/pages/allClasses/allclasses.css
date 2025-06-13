@@ -1,0 +1,8 @@
+.mainSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white ;
+  flex-wrap: wrap;
+  margin: 3rem;
+}

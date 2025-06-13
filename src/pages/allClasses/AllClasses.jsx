@@ -8,6 +8,9 @@ const AllClasses = () => {
     <div className="gradientBg">
       <Navbar/>
     </div>
+    <div className="mainSection">
+      <h1>This is where your video uploads go</h1>
+    </div>
     <Footer/>
   </div>
   );
