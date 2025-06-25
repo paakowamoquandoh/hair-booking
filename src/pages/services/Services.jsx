@@ -1,6 +1,7 @@
 import "./services.css";
 import { Navbar } from "../../components";
 import Footer from "../../containers/footer/Footer";
+import ProductList from "../../components/products/productList";
 
 const Services = () => {
   return (
@@ -9,7 +10,7 @@ const Services = () => {
       <Navbar/>
     </div>
     <div className="mainSection">
-      <h1>This is where the shop goes</h1>
+      <ProductList/>
     </div>
     <Footer/>
   </div>
