@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
         <div className="mediaNavbar-links_container">
           <p><a href="/allclasses">All Classes</a></p>
-          <p><a href="/services">Shop</a></p>
+          <p><a href="/shop">Shop</a></p>
           <p><a href="/booking">Booking</a></p>
           <p><a href="/contactus">Contact Us</a></p>
         </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="mediaNavbar-menu_container scale-up-center">
           <div className="mediaNavbar-menu_container-links">
           <p><a href="/allclasses">All Classes</a></p>
-          <p><a href="/services">Services</a></p>
+          <p><a href="/shop">Services</a></p>
           <p><a href="/booking">Booking</a></p>
           <p><a href="/contactus">Contact Us</a></p>
           </div>
