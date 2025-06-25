@@ -1,7 +1,7 @@
 // import images from all-images/blog-img directory
-import img01 from "../all-images/blog-img/blog-1.jpg";
-import img02 from "../all-images/blog-img/blog-2.jpg";
-import img03 from "../all-images/blog-img/blog-3.jpg";
+import img01 from "../../media/ginger/car6.jpg";
+import img02 from "../../media/ginger/hnew2.jpeg";
+import img03 from "../../media/ginger/hnew3.jpeg";
 
 const productData = [
   {

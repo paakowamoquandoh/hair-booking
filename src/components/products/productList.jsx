@@ -1,6 +1,6 @@
 import React from "react";
 import { Col } from "reactstrap";
-import "../../styles/product-item.css";
+import "./product-item.css";
 import { Link } from "react-router-dom";
 import productData from "./productData";
 
